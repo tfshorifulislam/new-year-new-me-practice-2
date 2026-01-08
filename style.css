@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#hero{
+    background-image: url("banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: right;
+    margin-right: 230px;
+    max-width: 525px;
+}
+
+.hero-text h1{
+    /* max-width: 525px; */
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.hero-text p{
+    /* max-width: 494px; */
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.btn{
+    padding: 21px 25px;
+    color: white;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+.about{
+    margin-top: 130px;
+
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1072px;
+    margin: 0 auto;
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: flex-end;
+}
+.about-image img{
+
+    max-width: 569px;
+    width: 100%;
+    z-index: 1;
+}
+
+.about-image .img-bg{
+    height: 527px;
+    width: 527px;
+    border-radius: 50%;
+    background-color: #f15d2249;
+    position: absolute;
+    z-index:-1;
+}
+
+
+
+.about-text{
+    max-width: 416px;
+}
+
+.about-text h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.about-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.about-text ul{
+    list-style: none;
+}
+
+.about-text ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.about-text ul li::before{
+    content: "\2713";
+    color: #05b169;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.my-plan{
+    margin-top: 130px;
+}
+
+.my-plan-container{
+    max-width: 1140px;
+    margin:  0 auto;
+}
+
+.my-plan-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.card-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-info img{
+ max-width: 93px;
+ margin-bottom: 24px;
+}
+
+.card-info h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.card-info p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
