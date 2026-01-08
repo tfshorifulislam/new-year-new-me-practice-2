@@ -200,3 +200,91 @@
     font-size: 20px;
     font-weight:600;
 }
+
+footer{
+    margin-top: 130px;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.footer-text{
+    max-width: 485px;
+}
+
+.footer-text h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.contact-email{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom:16px;
+}
+
+
+.contact-phone{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom:32px;
+}
+
+.icons{
+    display: flex;
+    gap: 18px;
+}
+
+.icon-set{
+    max-width: 47px;
+}
+
+
+.footer-contact{
+    max-width: 325px;
+}
+
+.footer-contact h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.footer-contact input[type="email"]{
+    padding: 21px 158px 22px 21px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+
+.footer-contact button{
+    color: #F15B22;
+    padding: 21px 36px;
+    border:none;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-weight:600;
+
+}
